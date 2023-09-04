@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 4rem;
+}
+
+
+header {
+    background:#111827;
+    width: 94rem;
+    height: 18.25rem;
+    border-radius: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoProfile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #837E9F;
+}
+
+.profilePhoto{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.profileName{
+    margin-top: 2rem;
+    margin-bottom: 0.4rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.profession {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+
+.social-media{
+    width: 21rem;
+    height: 13rem;
+    background:#111827;
+    border-radius: 1.25rem;
+    color: #837E9F;
+    padding-top: 1.37rem;
+    padding-left: 1.44em;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.skills {
+    width: 67rem;
+    height: 13rem;
+    background:#111827;
+    border-radius: 1.25rem;
+}
+
+.social-media-items {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+    
+}
+
+.social-media-items span {
+    margin-top: 0.4rem;
+}
+
+.skills {
+    color: #837E9F;
+    padding-top: 1.87rem;
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.skills h1 {
+    margin-bottom: 2rem;
+}
+
+.skills-box {
+    display: flex;
+    gap: 2.6rem;
+    padding-left: 2.4rem;
+}
+
+.skills-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-name span {
+    border: 1px solid ;
+    width: 18rem;
+    color: #FFFFFF;
+    border-radius: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-left: 25rem;
+}
+
+.experience {
+    width: 32rem;
+    height: 21rem;
+    color: #837E9F;
+    background:#111827;
+    border-radius: 1.25rem;
+    padding-top: 1.8em;
+    padding-left: 1.6rem;
+}
+
+.experience h2 {
+    margin-bottom: 1.4rem;
+}
+
+.experience ul {
+    padding-left: 3.4em;
+}
+
+.experience ul li {
+    margin-bottom: 1.4rem;
+
+}
+
+.education {
+    width: 32rem;
+    height: 21rem;
+    color: #837E9F;
+    background:#111827;
+    border-radius: 1.25rem;
+    padding-top: 1.8em;
+    padding-left: 1.6rem;
+}
+
+.education h2 {
+    margin-bottom: 1.4rem;
+}
+
+.education ul {
+    padding-left: 3.4em;
+}
+
+.education ul li {
+    margin-bottom: 1.4rem;
+
+}
